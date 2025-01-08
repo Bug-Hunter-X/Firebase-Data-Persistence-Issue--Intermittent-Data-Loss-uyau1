@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an issue where data wasn't persisting despite using `setPersistence(Persistence.LOCAL)` and ensuring that the data was written correctly.  The problem was intermittent; sometimes data would persist, other times it wouldn't, leading to data loss and inconsistent behavior. My code uses the Android SDK.
