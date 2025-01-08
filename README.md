@@ -1,0 +1,3 @@
+# Firebase Data Persistence Issue: Intermittent Data Loss
+
+This repository demonstrates a bug and its solution related to intermittent data loss in Firebase Realtime Database despite using local persistence.  The issue appears to be related to certain edge conditions or potential timing issues when using the Android Firebase SDK. The provided solution involves implementing a robust retry mechanism and error handling to make data persistence more reliable. 
